@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="personal/layout/defaultLayout" lang="en">
+
+<!-- index.html 고유 CSS 추가 -->
+<th:block layout:fragment="css">
+    <link rel="stylesheet" th:href="@{/css/page/home.css}" >
+</th:block>
+
+<!-- index.html 고유 스크립트 추가 -->
+<th:block layout:fragment="script">
+    <script th:src="@{/js/page/front.js}"></script>
+</th:block>
+
+<div layout:fragment="content">
+    <div class="px-4 d-block d-lg-none">
+        <!-- navbar-->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light px-0">
+                <button class="navbar-toggler navbar-toggler-right text-sm text-uppercase" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg class="svg-icon svg-icon-heavy svg-icon-sm text-dark">
+                        <use xlink:href="#menu-hamburger-1"> </use>
+                    </svg>
+                </button><a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" width="50"></a>
+            </nav>
+        </header>
+    </div>
+    <div class="px-4 py-5">
+        <div class="container-fluid">
+            <div class="masonry-wrapper">
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Treasure</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Wimbledon</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Tour de France</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Haunted House</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-5.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Best Friends</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-6.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Banana Lady</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-7.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Be cool</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-8.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Spread the Love</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item mb-4">
+                    <div class="listing-item">
+                        <div class="position-relative">
+                            <ul class="list-inline listing-tags m-0">
+                                <li class="list-inline-item"><a class="reset-anchor font-weight-normal text-gray text-small" href="detail.html">Creative</a></li>
+                            </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid" src="img/portfolio-9.jpg" alt="">
+                            <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                                <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                                    <use xlink:href="#arrow-right-1"> </use>
+                                </svg>
+                            </p></a>
+                        </div>
+                        <div class="py-3"><a class="reset-anchor" href="detail.html">
+                            <h2 class="h5 listing-item-heading">Grounghog Day</h2></a>
+                            <p class="text-small mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

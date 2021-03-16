@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>AndrewTest</title>
+    <th:block th:replace="personal/fragment/config :: configFragment" ></th:block>
+</head>
+
+<body>
+<th:block th:replace="personal/fragment/sideBar :: sideBarFragment"></th:block>
+
+<div class="page-holder">
+    <th:block layout:fragment="content"></th:block>
+    <th:block th:replace="personal/fragment/footer :: footerFragment"></th:block>
+</div>
+
+</body>
+
+</html>

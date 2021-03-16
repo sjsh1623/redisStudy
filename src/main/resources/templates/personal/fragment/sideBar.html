@@ -1,0 +1,36 @@
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org">
+
+<!--headerFragment 선언-->
+<div th:fragment="sideBarFragment">
+    <div class="sidebar">
+        <div class="sidebar-inner d-flex flex-column">
+            <div class="px-4 py-5"><a href="index.html"><img src="img/logo.svg" alt="" width="90"></a></div>
+            <div class="sidebar-menu-holder flex-grow-1">
+                <ul class="sidebar-menu list-unstyled">
+                    <li class="mb-2 pb-1">
+                        <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small active" href="index.html">Home</a>
+                    </li>
+                    <li class="mb-2 pb-1">
+                        <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="text.html">About</a>
+                    </li>
+                    <li class="mb-2 pb-1">
+                        <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="detail.html">Detail</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="px-4 py-3">
+                <ul class="list-inline list-social mb-3">
+                    <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
