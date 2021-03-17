@@ -6,8 +6,10 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>AndrewTest</title>
-    <th:block th:replace="personal/fragment/config :: configFragment" ></th:block>
+    <title>Andrew</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="icon" href="img/favicon.png">
+    <th:block th:replace="personal/fragment/config :: HeadFragment" ></th:block>
 </head>
 
 <body>
@@ -17,6 +19,7 @@
     <th:block layout:fragment="content"></th:block>
     <th:block th:replace="personal/fragment/footer :: footerFragment"></th:block>
 </div>
+<th:block th:replace="personal/fragment/config :: JSFragment" ></th:block>
 
 </body>
 
