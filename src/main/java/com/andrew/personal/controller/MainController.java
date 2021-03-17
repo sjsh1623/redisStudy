@@ -18,9 +18,4 @@ public class MainController {
         return "text";
     }
 
-    @RequestMapping(value="/layout/defaultLayout")
-    public String layoutDefault() {
-        return "personal/layout/defaultLayout";
-    }
-
 }
