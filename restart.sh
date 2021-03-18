@@ -11,33 +11,39 @@ cd /home/ec2-user/andrew/Personal
 echo "########################################"
 echo "############## Git Pull ###############"
 echo "########################################"
-
+echo ""
 git pull
-
+echo ""
 echo "########################################"
 echo "########### Git Pull Complete ##########"
 echo "########################################"
-
+echo ""
+echo ""
+echo ""
 echo "########################################"
 echo "########## Start Build Gradle ##########"
 echo "########################################"
-
+echo ""
 ./gradlew build
-
+echo ""
 echo "########################################"
 echo "######## Complete Build Gradle #########"
 echo "########################################"
-
+echo ""
+echo ""
+echo ""
 echo "########################################"
 echo "########## Check Current PID ###########"
 echo "########################################"
-
+echo ""
 CURRENT_PID=$(pgrep -f personal)
-
+echo ""
 echo "########################################"
 echo "##### Current PID : $CURRENT_PID #######"
 echo "########################################"
-
+echo ""
+echo ""
+echo ""
 if [ -z "$CURRENT_PID" ]; then
    echo ">No Server Is Currently Running"
 else
@@ -51,16 +57,20 @@ echo "  |   |   _ \  __ \   |   _ \   |   | "
 echo "  |   |   __/  |   |  |  (   |  |   | "
 echo " ____/  \___|  .__/  _| \___/  \__, | "
 echo "              _|               ____/  "
-
+echo ""
+echo ""
 rm andrewWAS_log.out
 
-nohup java -jar /home/ec2-user/andrew/Personal/build/libs/personal-0.0.1-SNAPSHOT.jar & > andrewLog.out
+nohup java -jar /home/ec2-user/andrew/Personal/build/libs/personal-0.0.1-SNAPSHOT.jar &
 
-echo""
-echo"   ___|   _ \    \  |   _ \   |      ____| __ __|  ____| "
-echo"  |      |   |  |\/ |  |   |  |      __|      |    __|   "
-echo"  |      |   |  |   |  ___/   |      |        |    |     "
-echo" \____| \___/  _|  _| _|     _____| _____|   _|   _____| "
-echo"                                                         "
+echo ""
+echo ""
+echo "   ___|   _ \    \  |   _ \   |      ____| __ __|  ____| "
+echo "  |      |   |  |\/ |  |   |  |      __|      |    __|   "
+echo "  |      |   |  |   |  ___/   |      |        |    |     "
+echo " \____| \___/  _|  _| _|     _____| _____|   _|   _____| "
+echo "                                                         "
 
-tail - 1000 andrewLog.out
+rm nohup.out
+
+tail -1000 nohup.out
