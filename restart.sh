@@ -59,7 +59,7 @@ echo " ____/  \___|  .__/  _| \___/  \__, | "
 echo "              _|               ____/  "
 echo ""
 echo ""
-rm andrewWAS_log.out
+rm nohup.out
 
 nohup java -jar /home/ec2-user/andrew/Personal/build/libs/personal-0.0.1-SNAPSHOT.jar &
 
@@ -70,7 +70,5 @@ echo "  |      |   |  |\/ |  |   |  |      __|      |    __|   "
 echo "  |      |   |  |   |  ___/   |      |        |    |     "
 echo " \____| \___/  _|  _| _|     _____| _____|   _|   _____| "
 echo "                                                         "
-
-rm nohup.out
 
 tail -1000 nohup.out
