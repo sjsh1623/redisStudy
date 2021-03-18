@@ -5,17 +5,17 @@
 <div th:fragment="sideBarFragment">
     <div class="sidebar">
         <div class="sidebar-inner d-flex flex-column">
-            <div class="px-4 py-5"><a href="index.html"><img src="img/logo.png" alt="" width="150"></a></div>
+            <div class="px-4 py-5"><a href="/"><img src="img/logo.png" alt="" width="150"></a></div>
             <div class="sidebar-menu-holder flex-grow-1">
                 <ul class="sidebar-menu list-unstyled">
                     <li class="mb-2 pb-1">
-                        <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small active" href="index.html">Home</a>
+                        <!-- Link--><a id="sideBarHome" class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="/">Home</a>
                     </li>
                     <li class="mb-2 pb-1">
-                        <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="text.html">About</a>
+                        <!-- Link--><a id="sideBarAbout" class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="/about">About</a>
                     </li>
                     <li class="mb-2 pb-1">
-                        <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="detail.html">Detail</a>
+                        <!-- Link--><a id="sideBarDetail" class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="/detail">Detail</a>
                     </li>
                 </ul>
             </div>

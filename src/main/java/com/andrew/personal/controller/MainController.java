@@ -10,12 +10,12 @@ public class MainController {
 
     @RequestMapping(value="/detail")
     public String detail() {
-        return "detail";
+        return "personal/page/detail";
     }
 
-    @RequestMapping(value="/aboutMe")
+    @RequestMapping(value="/about")
     public String aboutMe() {
-        return "text";
+        return "personal/page/about";
     }
 
 }
