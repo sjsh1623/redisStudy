@@ -18,4 +18,14 @@ public class MainController {
         return "personal/page/about";
     }
 
+    @RequestMapping(value="/test")
+    public String test() {
+        return "/test";
+    }
+
+    @RequestMapping(value="/text")
+    public String text() {
+        return "/text";
+    }
+
 }
