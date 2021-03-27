@@ -24,7 +24,7 @@ echo "########################################"
 echo "########## Start Build Gradle ##########"
 echo "########################################"
 echo ""
-./gradlew build
+gradlew build
 echo ""
 echo "########################################"
 echo "######## Complete Build Gradle #########"
