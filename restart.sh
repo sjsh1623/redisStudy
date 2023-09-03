@@ -24,6 +24,7 @@ echo "########################################"
 echo "########## Start Build Gradle ##########"
 echo "########################################"
 echo ""
+rm nohup.out
 ./gradlew build
 echo ""
 echo "########################################"
@@ -59,7 +60,6 @@ echo " ____/  \___|  .__/  _| \___/  \__, | "
 echo "              _|               ____/  "
 echo ""
 echo ""
-rm nohup.out
 
 nohup java -jar /home/ec2-user/andrew/Personal/build/libs/personal-0.0.1-SNAPSHOT.jar &
 

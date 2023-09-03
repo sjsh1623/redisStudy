@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df238d82-4787-4b08-850e-04684170145e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cart/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cart/CartV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cart/CartV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/JedisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/commons-pool2-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/hamcrest-core-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jedis-4.4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/json-20230618.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/json-simple-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/junit-4.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/like/LikePosting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/like/LikePostingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redislogger/LogReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redislogger/LogReceiverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redislogger/LogReceiverV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redislogger/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redislogger/LogWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redislogger/LogWriterV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redislogger/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uniquevisit/UniqueVisit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uniquevisit/UniqueVisitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitcount/VisitCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitcount/VisitCountOfDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitcount/VisitCountOfDayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitcount/VisitCountOfDayV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitcount/VisitCountOfDayV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitcount/VisitCountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/andrew/personal/mapper/testMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/andrew/personal/service/testService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/andrew/personal/vo/testVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/mybatis/test/testMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/andrew/personal/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/andrew/personal/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UszrCRzTVOVkxdxU1YVwMsBilv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cart" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LogReceiverTest">
+    <configuration name="CartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cart" />
+      <option name="MAIN_CLASS_NAME" value="cart.CartTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogReceiverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redislogger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redislogger" />
+      <option name="MAIN_CLASS_NAME" value="redislogger.LogReceiverTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LogReceiverTest" />
+        <item itemvalue="JUnit.CartTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df238d82-4787-4b08-850e-04684170145e" name="Changes" comment="" />
+      <created>1693743273648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693743273648</updated>
+      <workItem from="1693743275073" duration="1171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
